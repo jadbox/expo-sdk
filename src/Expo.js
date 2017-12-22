@@ -108,6 +108,9 @@ module.exports = {
   get MapView() {
     return require('react-native-maps');
   },
+  get RandomBytes() {
+    return require('react-native-randombytes');
+  },
   get Modal() {
     return require('./modal/Modal').default;
   },
