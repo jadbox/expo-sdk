@@ -109,11 +109,9 @@ module.exports = {
     return require('react-native-maps');
   },
   get RandomBytes() {
-    require('rn-nodeify');
     return require('react-native-randombytes');
   },
   get Crypto() {
-    require('rn-nodeify');
     return require('react-native-crypto');
   },
   get Modal() {

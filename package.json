@@ -10,6 +10,7 @@
     "AppEntry.js"
   ],
   "scripts": {
+    "postinstall": "rn-nodeify --install --hack",
     "lint": "eslint src tools",
     "prepublishOnly": "proofread",
     "test": "jest --watch"
